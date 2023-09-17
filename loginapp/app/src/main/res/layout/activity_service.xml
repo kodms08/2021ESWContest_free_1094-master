@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kakaotalk_20210716_130131343"
+    tools:context=".Service">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="서비스 안내" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/kakaotalk_20210720_022212524" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="   1) 센서가 큰 소리를 인식하거나 충격을 감지하면"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="  본인의 휴대폰에 신고 여부를 묻는 알림이 오게됩니다."
+        />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/kakaotalk_20210720_022229250" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="50dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="   2) 일정시간동안 버튼을 누르지 않는다면 위험한"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:text="   상황으로 감지하고 인근 경찰서에 신고가 됩니다."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/red"
+        android:text="   ※ 본인이 위험한 상황이 아닐 경우 'X' 버튼을"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="20dp"
+        android:textColor="@color/red"
+        android:text="      누르면 신고가 되지 않습니다."
+        />
+
+</LinearLayout>

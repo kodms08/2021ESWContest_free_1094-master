@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kakaotalk_20210716_130131343"
+    tools:context=".FirstActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="230dp"
+        android:layout_height="236dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kakaotalk_20210718_174219018" />
+
+    <EditText
+        android:id="@+id/et_test_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/black"
+        android:layout_marginTop="10dp"
+        android:hint="아이디"
+        android:textColor="#0B0A0A"
+
+
+        />
+
+
+    <EditText
+        android:id="@+id/et_test_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호"
+        android:textColor="#0B0A0A"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/et_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="범죄상황시 사용할 단어(한글)"
+        android:textColor="#0B0A0A"
+        android:textColorHint="@color/black"
+
+
+        />
+
+    <EditText
+        android:id="@+id/et_word2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="화재상황시 사용할 단어(한글)"
+        android:textColor="#0B0A0A"
+        android:textColorHint="@color/black"
+
+
+        />
+
+    <EditText
+        android:id="@+id/et_word3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="건강위급 상황시 사용할 단어 (한글)"
+        android:textColor="#0B0A0A"
+        android:textColorHint="@color/black"
+
+
+        />
+
+
+    <Button
+        android:id="@+id/btn_move_lg"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/yellow"
+        android:gravity="center"
+        android:text="로그인"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_move_assign"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/yellow"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

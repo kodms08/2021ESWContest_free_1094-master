@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/kakaotalk_20210716_130131343"
+    tools:context=".RegisterActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="184dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        app:srcCompat="@drawable/kakaotalk_20210716_145714532" />
+
+    <EditText
+        android:id="@+id/as_id"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0B0A0A"
+
+        android:textColorHint="@color/black"
+        android:hint="아이디" />
+    <EditText
+        android:id="@+id/as_pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0B0A0A"
+
+        android:textColorHint="@color/black"
+        android:hint="비밀번호" />
+
+    <EditText
+        android:id="@+id/as_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="주소"
+        android:textColor="#0B0A0A"
+
+        android:textColorHint="@color/black" />
+    <EditText
+        android:id="@+id/as_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="신고 갈 전화번호"
+        android:textColor="#0B0A0A"
+
+        android:textColorHint="@color/black" />
+
+
+    <Button
+        android:id="@+id/as_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/yellow"
+        android:textColor="@color/black"
+        android:text="완료"/>
+
+
+</LinearLayout>
